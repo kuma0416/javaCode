@@ -5,6 +5,6 @@ public class shortCircut {
         int i = 3, j = 4;
         System.out.println("Is i++, j the same? " + ((true | (i++) == j)) + "\ni:" + i);
         i = 3; j = 4;
-        System.out.println("Is i++, j the same? " + ((true || (i++) == j)) + "\ni:" + i);
+        //System.out.println("Is i++, j the same? " + ((true || (i++) == j)) + "\ni:" + i);
     }
 }
